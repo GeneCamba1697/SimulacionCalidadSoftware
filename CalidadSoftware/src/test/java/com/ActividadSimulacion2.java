@@ -113,7 +113,7 @@ public class ActividadSimulacion2 {
          assertTrue("Dirección permanente incorrecta", textoDireccionPermanente.contains(direccionPermanente));
      }
     @After
-    public void tearDown() {
-        //driver.quit();
+    public void cierre() {
+        driver.quit();
     }
 }
