@@ -174,6 +174,6 @@ public class ActividadSimulacion {
 
 	@After
 	public void cierre() {
-		// driver.quit();
+		driver.quit();
 	}
 }
